@@ -1,0 +1,14 @@
+.aboutme {
+
+    width: 100vw;
+}
+
+.text_containers{
+    width: 50%;
+}
+
+.pic{
+    position: relative;
+    top: -18rem;
+
+}

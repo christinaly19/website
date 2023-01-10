@@ -8,6 +8,7 @@ import {EnvelopeAtFill} from "react-bootstrap-icons";
 import {TelephoneFill} from "react-bootstrap-icons";
 import { Linkedin } from "react-bootstrap-icons";
 import Navbar from './navbar'
+
 function Header() {
   return (
     <>
