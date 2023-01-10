@@ -7,11 +7,12 @@ import { Github } from "react-bootstrap-icons";
 import {EnvelopeAtFill} from "react-bootstrap-icons";
 import {TelephoneFill} from "react-bootstrap-icons";
 import { Linkedin } from "react-bootstrap-icons";
-
+import Navbar from './navbar'
 function Header() {
   return (
     <>
     <div className = 'header'>
+    <Navbar></Navbar>
 <div className = 'text_container'>
 <h1 className = 'border border-white textbox bg-gradient-to-r from-[#5D2E54] to-[#38246D] ml-32 p-2  text-left font-poppins font-semibold tracking-wider text-white'> Welcome to my Website </h1>
    <h1 className = "mt-4 ml-32 text-left tracking-wide font-semibold text-white font-poppins text-6xl"
