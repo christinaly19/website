@@ -6,6 +6,7 @@ import React from 'react'
 import { Github } from "react-bootstrap-icons";
 import {EnvelopeAtFill} from "react-bootstrap-icons";
 import {TelephoneFill} from "react-bootstrap-icons";
+import { Linkedin } from "react-bootstrap-icons";
 
 function Header() {
   return (
@@ -32,10 +33,11 @@ Hey there! Welcome to my website.  I am an aspiring front-end developer of 3+ ye
 Currently, I'm pursuing a double degree in CS/BBA at the University of Waterloo. I also have passion for creating engaging & entertaining user experiences with interactive design. 
 Hope to see you around! </p>
 <button className = 'absolute ml-32 mt-3 mb-3 left-0 text-left font-semibold text-white  hover:bg-[#5B2D55] hover:p-1 hover:rounded-md '> Check Out My Projects <span className = 'arrow mt-3 bg-transparent text-white text-2xl'>  ➳ </span></button>
-<span className = 'absolute ml-32 mt-8 icons inline-flex items-baseline'>
+<span className = 'absolute ml-32 mt-14 icons inline-flex items-baseline'>
   <Github className = 'text-xl mt-3 text-white hover:text-gray-400 '></Github> 
   <EnvelopeAtFill className = 'text-xl ml-3 text-white hover:text-gray-400'></EnvelopeAtFill>
   <TelephoneFill className = 'text-xl ml-3 text-white hover:text-gray-400'></TelephoneFill>
+  <Linkedin className = 'text-xl ml-3 text-white hover:text-gray-400'></Linkedin>
   </span>
     </div>
     <img src={headerimage} alt="Header Img"/>
