@@ -1,0 +1,263 @@
+.projects{
+height: 65rem !important;
+}
+
+
+.boxwrapper {
+
+    height: 55rem;
+    position: relative;
+    top: 1rem;
+    
+}
+h3{
+    color: #B18ED1;
+  }
+
+  .box1 {
+    height: 48%;
+    width: 54%;
+    float: left;
+    background-color: #35393D;
+    cursor: pointer;
+}
+
+.boximg1 {
+    height: 100%;
+    background-position: center; 
+    max-width: 100%;
+    object-fit: contain;
+    background-image: url('../assets/moon.gif');
+    background-repeat: no-repeat;
+    object-fit:cover;
+}
+
+.box2{
+    height: 48%;
+    width: 41%;
+    background-color: white;
+    background-position: center;
+    background-image: url('../assets/stars.gif');
+    background-repeat: no-repeat;
+    background-color: #242424;
+    float: right;
+    position: relative; 
+    right: 2%;
+    cursor: pointer;
+}
+
+.box3 {
+    height: 45%;
+    background-color: white;
+    background-position: center;
+    background-image: url('../assets/train.gif');
+    background-repeat: no-repeat;
+    background-color: #383445;
+    float: bottom;
+    width: 49%;
+    position: relative;
+    top: 52%;
+    cursor: pointer;
+}
+
+.box4 {
+    height: 45%;
+    background-color: white;
+    background-position: center;
+    background-image: url('../assets/watermoon.gif');
+    background-repeat: no-repeat;
+    background-color:#1C1A2C;
+    float: right;
+    width: 46%;
+    position: relative;
+    right: 2%;
+    top:4%;
+    cursor: pointer;
+}
+.overlay1 {
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50.1%);
+    width: 100%;
+    height: 100.3%;
+    background:#2F2554;
+    color: white;
+    display: none;
+    opacity: 0.75;
+}
+
+.overlay2{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100.3%;
+    background: #21386D;
+    color: white;
+    display: none;
+    opacity: 0.75;
+    
+}
+
+.overlay3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0.3%;
+    transform: translateY(-106.9%);
+    width: 100%;
+    height: 100%;
+    background: #572D58;
+    color: white;
+    display: none;
+    opacity: 0.75;
+}
+
+.overlay4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+    background: #983589;
+    color: white;
+    display: none;
+    opacity: 0.75;
+}
+
+
+
+.box1:hover .overlay1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+.box2:hover .overlay2{
+    display: flex;
+    flex-direction: column;
+}
+
+.box3:hover .overlay3{
+    display: flex;
+    flex-direction: column;
+}
+
+.box4:hover .overlay4{
+    display: flex;
+    flex-direction: column;
+}
+
+.projectdes{
+    color: white;
+    font-family: Helvetica, Sans-Serif;
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    margin-left: 1rem;
+    margin-left: 1rem
+    
+}
+
+.projectbutton{
+    margin-top: 1rem;
+    padding: 0.4rem !important;
+    position: relative;
+    
+}
+
+.projectbutton:hover {
+    background-color: #1D192E;
+}
+
+#btntwo:hover {
+    background-color: #fcc9f6 !important;
+}
+
+#btnthree:hover {
+    background-color: #d7cdf7 !important;
+
+}
+
+#btntwo_left {
+    position: relative;
+    left: 3rem;
+}
+
+#btntwo_left:hover {
+    background-color: #fcc9f6 !important;
+}
+
+#btntwo{
+    position: relative;
+    right: -1rem;
+}
+
+@media screen and (max-width: 942px) {
+    .subtitle{
+        font-size: 16px;
+    }
+
+    .projectdes {
+        font-size: 11px !important;
+
+    }
+
+    .projectbutton {
+        padding: 2px 2px !important;
+        position: relative;
+        top: -2rem;
+        left: 2rem;
+    }
+
+    #btnthree{
+        position: relative;
+        left: -0.5rem;
+    }
+
+    #btntwo {
+        display: none
+    }
+
+    #btntwo_left{
+        position: relative;
+        top: 0.5rem;
+        
+    
+    }
+   
+    .boxwrapper {
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    flex-wrap: wrap;
+    }
+
+
+    
+
+    .description{
+        margin-left: 2rem !important;
+        margin-right: 2rem;
+        position: relative;
+        top: 1rem;
+    }
+
+    h3{
+        position: relative;
+        top: 1rem !important;
+        right: 5rem;
+    }
+
+    .blank{
+        height: 15vh;
+    }
+}

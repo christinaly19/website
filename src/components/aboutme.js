@@ -4,7 +4,7 @@ import christina from '../assets/christina.jpeg'
 function AboutMe() {
   return (
     <>
-    <div className = 'w-full h-full bg-[#121212] aboutme'>
+    <div className = 'bg-[#121212] aboutme'>
     <br></br>
     <br></br>
     <div className = 'mt-10 text_containers ml-32'>
