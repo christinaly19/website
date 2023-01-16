@@ -3,7 +3,7 @@ import "./projects.css"
 
 function Projects() {
   return (
-    <div>
+    <div id = "projects">
       <div className = 'h-1/2 bg-[#151419] projects'>
       <div className = 'text ml-32 mr-32'>
       <div className = 'tracking-wider font-poppins text-3xl text-left font-semibold text-white'> {"<"} My Projects {"/>"} </div>

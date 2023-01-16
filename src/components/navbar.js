@@ -35,7 +35,7 @@ export default function Navbar({ fixed }) {
                 <li className="nav-item">
                   <a
                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                    href="#pablo"
+                    href="#aboutme"
                   >
                     <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2">About Me</span>
                   </a>
@@ -43,7 +43,7 @@ export default function Navbar({ fixed }) {
                 <li className="nav-item">
                   <a
                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                    href="#pablo"
+                    href="#projects"
                   >
                     <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Projects</span>
                   </a>

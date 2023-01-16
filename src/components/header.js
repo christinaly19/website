@@ -34,12 +34,23 @@ function Header() {
 Hey there! Welcome to my website.  I am an aspiring front-end developer of 3+ years based in Markham, Ontario. 
 Currently, I'm pursuing a double degree in CS/BBA at the University of Waterloo. I also have passion for creating engaging & entertaining user experiences with interactive design. 
 Hope to see you around! </p>
+<a href="#projects">
 <button className = 'absolute ml-32 mt-3 mb-3 left-0 text-left font-semibold text-white  hover:bg-[#5B2D55] hover:p-1 hover:rounded-md '> Check Out My Projects <span className = 'arrow mt-3 bg-transparent text-white text-2xl'>  ➳ </span></button>
+</a>
 <span className = 'absolute ml-32 mt-14 icons inline-flex items-baseline'>
+<a href="https://github.com/christinaly19">
   <Github className = 'text-xl mt-3 text-white hover:text-gray-400 '></Github> 
+  </a>
+
+  <a href="mailto:christinayxli@gmail.com">
   <EnvelopeAtFill className = 'text-xl ml-3 text-white hover:text-gray-400'></EnvelopeAtFill>
+  </a>
+
   <TelephoneFill className = 'text-xl ml-3 text-white hover:text-gray-400'></TelephoneFill>
+
+  <a href="https://www.linkedin.com/in/christinali19">
   <Linkedin className = 'text-xl ml-3 text-white hover:text-gray-400'></Linkedin>
+  </a>
   </span>
     </div>
     <img src={headerimage} alt="Header Img"/>
