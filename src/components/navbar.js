@@ -51,7 +51,7 @@ export default function Navbar({ fixed }) {
                 <li className="nav-item">
                   <a
                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                    href="https://drive.google.com/file/d/1wfmkTDGgmLsal0E05j3rzodxTrYbhbZK/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1_QNCGRL-jtH7nhrcrtoH-fgGqRYQkIex/view?usp=sharing"
                   >
                     <i className = 'className="fab fa-pinterest text-lg leading-lg text-white opacity-75'></i><span className="ml-2">RESUME</span>
                   </a>
